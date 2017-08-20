@@ -5,7 +5,7 @@ It works on the python3. Repo finder doesnt use git api,it parse html code of gi
 
 ###### Usage
 
-'''sh
+```sh
 
 
 usage: search.py [-h] [--repo-user REPO_USER] [--query QUERY]
@@ -25,7 +25,7 @@ optional arguments:
 
 
 
-'''
+```
 
 
 ###### Dependecies 
@@ -42,31 +42,31 @@ optional arguments:
 ###### Examples
 
 
-'''sh
+```sh
 
 
 python3 src/search.py --repo-user pisilinux --query kde
 
 
-'''
+```
 this process shows us all that  contains 'kde' queries on urls
 
 
-'''sh
+```sh
 
 python3 src/search.py --repo-user pisilinux --query kde --only-has-name 1
 
 
-'''
+```
 this process shows us urls that contains 'kde' queries and not relational urls
 --only-has-name is a boolean and it takes only 1 , if you want to use
 
 
-'''sh
+```sh
 
 python3 src/search.py --repo-user pisilinux --query kde --logs log_file
+```
 
-'''
 exract log_file in actions while processing query
 
 
